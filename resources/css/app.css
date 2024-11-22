@@ -1,0 +1,11 @@
+.cr-heading {
+    font-size: 2rem !important;
+    padding-bottom: 20px;
+}
+.highlighted-notes{
+    color: red;
+    font-weight: 600;
+}
+.redAsterisk {
+    color: red;
+}

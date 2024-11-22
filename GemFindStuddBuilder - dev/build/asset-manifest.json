@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/apps/studbuilder/static/css/main.2d3bcc73.css",
+    "main.js": "/apps/studbuilder/static/js/main.508b58ad.js",
+    "static/media/diamond.gif": "/apps/studbuilder/static/media/diamond.ab83c6d22d8820a8944a.gif",
+    "static/media/spinner.gif": "/apps/studbuilder/static/media/spinner.757857ce13a4e4e598e4.gif",
+    "static/media/shape-images.png": "/apps/studbuilder/static/media/shape-images.cdd2376994bc14bad604.png",
+    "static/media/color.jpg": "/apps/studbuilder/static/media/color.701b7e34c9d87eeb2a38.jpg",
+    "static/media/emerald_Large.jpg": "/apps/studbuilder/static/media/emerald_Large.aa6db4f6b719aff56ce4.jpg",
+    "static/media/marquise_Large.png": "/apps/studbuilder/static/media/marquise_Large.41c9b05a27a7aa0aa038.png",
+    "static/media/360-view.png": "/apps/studbuilder/static/media/360-view.dd36a0dfde5dd5da5877.png",
+    "index.html": "/apps/studbuilder/index.html",
+    "main.2d3bcc73.css.map": "/apps/studbuilder/static/css/main.2d3bcc73.css.map",
+    "main.508b58ad.js.map": "/apps/studbuilder/static/js/main.508b58ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d3bcc73.css",
+    "static/js/main.508b58ad.js"
+  ]
+}

@@ -1,0 +1,209 @@
+.Diamond-form {
+    .requested-form {
+        margin-bottom: 10px;
+        h2 {
+            font-size: 30px;
+            color: $black;
+            font-family: "Lato", sans-serif;
+            line-height: 1.1;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: $black;
+        }
+    }
+    form {
+        .form-field {
+            .MuiFormControl-root,
+            .MuiInput-root {
+                width: 100%;
+                margin: 0 0 0 0;
+                .MuiInputLabel-root {
+                    font-size: 14px;
+                    color: $black;
+                }
+                .MuiInputLabel-shrink {
+                    font-size: 18px;
+                    display: none;
+                }
+                .MuiInput-input {
+                    font-size: 14px;
+                    color: $black;
+                    outline: none;
+                    cursor: pointer;
+                    height: 30px;
+                }
+            }
+        }
+        .prefrence-action {
+            margin-top: 20px;
+            .preference-btn {
+                font-size: 14px;
+                padding: 10px 20px;
+            }
+        }
+        // .pref_container{
+        //     .moveUp{
+        //         display: flex;
+        //         align-items: center;
+        //         margin: 10px 0;
+        //         input[type="radio" i]{
+        //             position: inherit;
+        //             width: auto;
+        //             height: auto;
+        //             z-index: initial;
+        //             opacity: 1;
+        //         }
+        //         label{
+        //             margin: 0 0 0 10px;
+        //             font-size: 14px;
+        //         }
+        //     }
+        // }
+        // label{
+        //     display: block;
+        //     // margin: 20px 0;
+        //     input[type="date" i]{
+        //         cursor: pointer;
+        //         padding: 5px 5px;
+        //     }
+        //     input , textarea,select{
+        //         width: 100%;
+        //         border: 0;
+        //         border-bottom: 1px solid #9f9f9f;
+        //         box-sizing: border-box;
+        //         padding: 0;
+        //         height: 38px;
+        //         font-size: 14px;
+        //         outline: none;
+        //         padding: 5px 10px;
+        //     }
+        //     span{
+        //         // display: block;
+        //         font-size: 14px;
+        //     }
+        // }
+    }
+}
+
+.Diamond-form--small {
+    .requested-form {
+        margin-bottom: 10px;
+        h2 {
+            font-size: 30px;
+            color: $black;
+            font-family: "Lato", sans-serif;
+            line-height: 1.1;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: $black;
+            margin-bottom: 20px;
+        }
+    }
+    form {
+        .form-field {
+            .MuiFormControl-root,
+            .MuiInput-root {
+                width: 100%;
+                margin: 0 0 0 0;
+                .MuiInputLabel-root {
+                    font-size: 14px;
+                    color: $black;
+                }
+                .MuiInputLabel-shrink {
+                    font-size: 18px;
+                    display: none;
+                }
+                .MuiInput-input {
+                    font-size: 14px;
+                    color: $black;
+                    outline: none;
+                    cursor: pointer;
+                    height: 30px;
+                }
+            }
+        }
+        .prefrence-action {
+            margin-top: 20px;
+            .preference-btn {
+                font-size: 14px;
+                padding: 10px 20px;
+            }
+        }
+        // .pref_container{
+        //     .moveUp{
+        //         display: flex;
+        //         align-items: center;
+        //         margin: 10px 0;
+        //         input[type="radio" i]{
+        //             position: inherit;
+        //             width: auto;
+        //             height: auto;
+        //             z-index: initial;
+        //             opacity: 1;
+        //         }
+        //         label{
+        //             margin: 0 0 0 10px;
+        //             font-size: 14px;
+        //         }
+        //     }
+        // }
+        // label{
+        //     display: block;
+        //     // margin: 20px 0;
+        //     input[type="date" i]{
+        //         cursor: pointer;
+        //         padding: 5px 5px;
+        //     }
+        //     input , textarea,select{
+        //         width: 100%;
+        //         border: 0;
+        //         border-bottom: 1px solid #9f9f9f;
+        //         box-sizing: border-box;
+        //         padding: 0;
+        //         height: 38px;
+        //         font-size: 14px;
+        //         outline: none;
+        //         padding: 5px 10px;
+        //     }
+        //     span{
+        //         // display: block;
+        //         font-size: 14px;
+        //     }
+        // }
+    }
+}
+
+.contact-prefrtence {
+    // margin-top: 20px;
+    span {
+        font-size: 15px;
+    }
+    .pref_container {
+        label {
+            .MuiFormControlLabel-label {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.MuiInputBase-root fieldset {
+    border-width: 1px !important;
+    border-color: #6c757d !important;
+}
+
+.MuiInputBase-root fieldset legend {
+    font-size: 15px;
+    visibility: visible;
+    max-width: fit-content;
+    height: 20px !important;
+}
+
+.MuiInputBase-root fieldset legend span {
+    opacity: 1;
+    font-size: 12px;
+}

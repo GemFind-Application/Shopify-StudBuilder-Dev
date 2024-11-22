@@ -1,0 +1,182 @@
+.breadCumbs {
+  display: flex;
+  .breadCumb {
+    flex: 0 1 30.5%;
+    @include media-breakpoint-up(sm) {
+      flex: 0 1 32.5%;
+    }
+    &:first-child {
+      div {
+        border-radius: 5px 0px 0 5px;
+        padding: 17px 35px;
+        @include media-breakpoint-up(sm) {
+          padding: 15px 0 15px 35px;
+          justify-content: space-between;
+        }
+        @include media-breakpoint-up(lg) {
+          padding: 25px 0 25px 64px;
+        }
+      }
+    }
+    .tab-icon {
+      width: 30px;
+      height: 37px;
+      display: inline-block;
+      background: url("../../images/icons-sprite.png");
+      background-repeat: no-repeat;
+    }
+    .finalring-icon {
+      background-position: 0px -60px;
+    }
+    .diamond-icon {
+      background-position: 0px 10px;
+    }
+    .ring-icon {
+      background-position: 0 -24px;
+    }
+    p.subTitle {
+      font-size: 14px;
+      font-weight: 400;
+      color: $gray;
+      line-height: 20px;
+      font-family: "Lato", sans-serif;
+    }
+    h2.btitle {
+      font-size: 15px;
+      display: block;
+      font-weight: 400;
+      color: $gray;
+      line-height: 20px;
+      font-family: "Lato", sans-serif;
+      @include media-breakpoint-up(md) {
+        font-size: 20px;
+      }
+      @include media-breakpoint-up(lg) {
+        font-size: 24px;
+      }
+    }
+    // #diamonds {
+    //   @include media-breakpoint-down(md) {
+    //     justify-content: center;
+    //   }
+    // }
+    div {
+      padding: 14px;
+      background-color: $light-gray;
+      border: 1px solid $gray;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: right;
+
+      @include media-breakpoint-up(sm) {
+        padding: 16px 0 15px 35px;
+        justify-content: space-between;
+      }
+      @include media-breakpoint-up(lg) {
+        padding: 22px 0 25px 64px;
+      }
+      &::before {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 36px 0 36px 31px;
+        border-color: transparent transparent transparent $gray;
+        position: absolute;
+        content: "";
+        top: -1px;
+        right: -32px;
+        z-index: 1;
+        @include media-breakpoint-up(lg) {
+          border-width: 46px 0 46px 31px;
+        }
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 36px 0 36px 31px;
+        border-color: transparent transparent transparent $light-gray;
+        top: -1px;
+        right: -30px;
+        z-index: 2;
+        @include media-breakpoint-up(lg) {
+          border-width: 46px 0 46px 31px;
+        }
+      }
+      .breadcumb-title {
+        display: none;
+        @include media-breakpoint-up(md) {
+          display: block;
+        }
+      }
+    }
+  }
+  .active {
+    div {
+      background-color: $black;
+      // border: 1px solid $black;
+      &::before {
+        border-color: transparent transparent transparent $black;
+      }
+      &::after {
+        border-color: transparent transparent transparent $black;
+      }
+      .finalring-icon {
+        background-position: -34px -60px;
+      }
+      .diamond-icon {
+        background-position: -32px 10px;
+      }
+      .ring-icon {
+        background-position: -33px -25px;
+      }
+      p.subTitle {
+        color: $white;
+      }
+      h2.title {
+        color: $white;
+      }
+      .view-edit-btn span a {
+        color: #ddd;
+      }
+    }
+  }
+}
+
+// view/edit Button
+
+.view-edit-btn {
+  margin-bottom: 0;
+  @include media-breakpoint-down(md) {
+    display: none;
+    // margin: 0 8px 0 8px;
+  }
+  span {
+    color: #222;
+    font-size: 12px;
+    a {
+      color: #222;
+      font-size: 12px;
+      //margin: 4px;
+      .view-pattern {
+        margin: 0 5px;
+        font-size: 10px;
+      }
+    }
+  }
+  .view-setting {
+    // position: relative;
+    // margin-right: 8px;
+    // &::before {
+    //   position: absolute;
+    //   content: "|";
+    //   right: -5px;
+    //   top: 2.5px;
+    //   font-size: 10px;
+    //   color: #000;
+    // }
+  }
+}

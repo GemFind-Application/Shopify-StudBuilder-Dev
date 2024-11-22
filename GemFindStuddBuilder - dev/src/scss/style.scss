@@ -1,0 +1,37 @@
+// @use "_variables";
+// @import "_mixin";
+// @import "_function";
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@font-face {
+    font-family: "Luma-Icons";
+    src: url("https://db.onlinewebfonts.com/t/68590d1f06ad625cb73b5c34f85b4a1b.eot");
+    /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/68590d1f06ad625cb73b5c34f85b4a1b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/68590d1f06ad625cb73b5c34f85b4a1b.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/68590d1f06ad625cb73b5c34f85b4a1b.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/68590d1f06ad625cb73b5c34f85b4a1b.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/68590d1f06ad625cb73b5c34f85b4a1b.svg#Luma-Icons") format("svg");
+    /* iOS 4.1- */
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import "react-responsive-modal/styles.css";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import "nouislider/distribute/nouislider.css";
+@import "base/reset";
+@import "styles/variables";
+@import "modules/tabs";
+@import "modules/types";
+@import "modules/filter";
+@import "modules/shapes";
+@import "modules/range-slider";
+@import "modules/metal";
+@import "modules/navigation";
+@import "modules/search-filter";
+@import "modules/product-details";
+@import "modules/form";
+@import "modules/diamond-filter";
+@import "modules/skeleton";
+@import "modules/list-datatable";
+@import "modules/data-filter.scss";

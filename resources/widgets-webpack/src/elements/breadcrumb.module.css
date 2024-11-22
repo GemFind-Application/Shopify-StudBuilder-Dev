@@ -1,0 +1,243 @@
+.ringbuilderTabSection {
+    /* width: 83%;
+  margin: 0 auto; */
+}
+.ringbuilderTabSection .tabUl {
+    display: flex;
+    padding-left: 0;
+}
+.ringbuilderTabSection .tabUl .tabLi {
+    width: 33.33%;
+    list-style: none;
+}
+.ringbuilderTabSection .tabUl .tabLi .breadCumbs {
+    background: #fafafa;
+    border: 1px solid #797979;
+    /* border-right: 0;
+  border-left: 0; */
+}
+.ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links {
+    padding: 20px 0px 20px 64px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fafafa;
+    border-width: 1px;
+    border-color: rgb(121, 121, 121);
+    position: relative;
+    border-right: 0;
+}
+.ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links:hover,
+.ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links:hover {
+    opacity: 1 !important;
+}
+
+.ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links:before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 45.5px 0 45.5px 30px;
+    border-color: transparent transparent transparent #797979;
+    position: absolute;
+    content: "";
+    top: -1px;
+    right: -29px;
+    z-index: 1;
+}
+.ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 45.5px 0 45.5px 30px;
+    border-color: transparent transparent transparent #fafafa;
+    top: -1px;
+    right: -28px;
+    z-index: 2;
+}
+.ringbuilderTabSection .tabUl .tabLi.active .breadcumbs_links:after {
+    border-color: transparent transparent transparent #000000 !important;
+}
+
+.ringbuilderTabSection .tabUl .tabLi.active .breadcumbs_links {
+    background: #000000;
+}
+.ringbuilderTabSection .tabUl .tabLi.active .breadcumbs_links .tabTitle {
+    color: #fff;
+}
+.ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links .tabIcon {
+    width: 30px;
+    height: 37px;
+    float: right;
+    background: url(https://app.studbuilder.com/apps/studbuilder/images/icons-sprite.png)
+        no-repeat;
+    /* position: relative; */
+    top: -40px;
+}
+.ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links .ringIcon {
+    background-position: -33px -25px;
+}
+.ringbuilderTabSection
+    .tabUl
+    .tabLi
+    .breadCumbs
+    .breadcumbs_links
+    .diamondIcon {
+    background-position: 0px 10px;
+}
+.ringbuilderTabSection
+    .tabUl
+    .tabLi
+    .breadCumbs
+    .breadcumbs_links
+    .finalringIcon {
+    background-position: 0px -60px;
+}
+
+.ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links {
+    text-decoration: none;
+}
+.ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #797979;
+    line-height: 20px;
+    /* margin: 0; */
+}
+.ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links span strong {
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+    margin: 0;
+}
+.ringbuilderTabSection .tabUl .tabLi.active .view_edit_btn span a {
+    color: #ddd !important;
+}
+.ringbuilderTabSection .save_reset_filter {
+    background-color: #000;
+}
+.ringbuilderTabSection .save_reset_filter a {
+    color: #fff;
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    line-height: normal;
+    margin-right: 0;
+    padding: 15px;
+    text-decoration: none;
+    text-align: right;
+}
+.ringbuilderTabSection .save_reset_filter a span svg {
+    height: 20px;
+    width: 20px;
+    margin-right: 7px;
+}
+.ringbuilderTabSection .save_reset_filter a span svg path {
+    fill: #fff;
+}
+@media (min-width: 992px) {
+    .ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links {
+        height: 88px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links {
+        padding: 11px 0 11px 44px;
+        height: 71px;
+    }
+    .ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links:before {
+        border-width: 36.5px 0 36.5px 30px;
+    }
+    .ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links:after {
+        border-width: 36.5px 0 36.5px 30px;
+    }
+    .ringbuilderTabSection
+        .tabUl
+        .tabLi
+        .breadCumbs
+        .breadcumbs_links
+        span
+        strong {
+        font-size: 18px;
+    }
+}
+/* @media screen and (max-width: 768px) {
+  .ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links {
+    padding: 20px 0px 20px 64px;
+  }
+} */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .ringbuilderTabSection .tabUl .tabLi {
+        width: 32.33%;
+    }
+    .ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links {
+        padding: 6px 0 6px 44px;
+        height: 59px;
+    }
+    .ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links:before {
+        border-width: 30.5px 0 30.5px 30px;
+    }
+    .ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links:after {
+        border-width: 30.5px 0 30.5px 30px;
+    }
+    .ringbuilderTabSection
+        .tabUl
+        .tabLi
+        .breadCumbs
+        .breadcumbs_links
+        span
+        strong {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .ringbuilderTabSection .tabUl .tabLi {
+        width: 31.33%;
+    }
+    .ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links {
+        padding: 10px 0 9px 28px;
+        text-align: center;
+        justify-content: center;
+    }
+    .ringbuilderTabSection .tabUl .tabLi .breadcumbs_links .tabIcon {
+        float: none;
+        display: inline-block;
+    }
+    .ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links span {
+        display: none;
+    }
+    .ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links:before {
+        border-width: 29.5px 0 29.5px 30px;
+    }
+    .ringbuilderTabSection .tabUl .tabLi .breadCumbs .breadcumbs_links:after {
+        border-width: 29.5px 0 29.5px 30px;
+    }
+    /* .view_edit_btn{
+    margin-top: 0;
+    margin-right: 5px;
+  }
+  .view_edit_btn span{
+    display: block !important;
+  } */
+}
+
+.view_edit_btn {
+    margin-bottom: 0;
+}
+.view_edit_btn span {
+    color: #222;
+    font-size: 12px;
+}
+.view_edit_btn span a {
+    color: #222;
+    font-size: 12px;
+    text-decoration: none;
+}
+.view_edit_btn span a .view_pattern {
+    margin: 0 5px;
+    font-size: 10px;
+}

@@ -1,0 +1,16 @@
+.filter-container{
+    display: block;
+    justify-content: space-between;
+    @include media-breakpoint-up(lg) {
+        display: flex; 
+    }
+    .filter-bg{
+        width: 100%;
+        background-color: $light-gray;
+        padding: 15px;
+        margin-bottom: 20px;
+        @include media-breakpoint-up(lg) {
+            width: 49%;
+        }
+    }
+}
